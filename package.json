@@ -1,0 +1,35 @@
+{
+  "name": "springbokjs-server",
+  "version": "1.0.0",
+  "description": "framework for nodejs 4",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "babel-runtime": "^5.8.25"
+  },
+  "devDependencies": {
+    "springbokjs-library": "^11.1.1"
+  },
+  "scripts": {
+    "test": "make tests",
+    "lint": "make lint",
+    "build": "make build",
+    "postpublish": "make post-publish",
+    "prepublish": "make pre-publish",
+    "preversion": "make pre-version",
+    "version": "make version",
+    "watch": "make watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christophehurpeau/springbokjs-common.git"
+  },
+  "keywords": [
+    "springbokjs"
+  ],
+  "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christophehurpeau/springbokjs-common/issues"
+  },
+  "homepage": "https://github.com/christophehurpeau/springbokjs-common#readme"
+}
