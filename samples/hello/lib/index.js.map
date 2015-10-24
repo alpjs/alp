@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":[],"mappings":";;mBAAsB,KAAK;;AAE3B,gBAAM,SAAS,CAAC,CAAC","file":"index.js","sourcesContent":["import { start } from 'alp';\n\nstart(__dirname);\n"],"sourceRoot":"/"}

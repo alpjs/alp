@@ -1,0 +1,1 @@
+{"version":3,"sources":["controllers/index.js"],"names":[],"mappings":";;;;;;;;8BAAgC,kBAAkB;;QAA9B,IAAI","file":"controllers/index.js","sourcesContent":["export { default as site } from './SiteController';\n"],"sourceRoot":"/"}
