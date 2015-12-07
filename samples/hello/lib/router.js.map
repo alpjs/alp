@@ -1,1 +1,0 @@
-{"version":3,"sources":["router.js"],"names":[],"mappings":";;;;;kBAAwB,WAAW;;;AAApB,SAAS,WAAW,CAAC,OAAO,EAAE;AACzC,WAAO,CACF,GAAG,CAAC,GAAG,EAAE,GAAG,EAAE,YAAY,CAAC,CAAC;CAEpC","file":"router.js","sourcesContent":["export default function buildRouter(builder) {\n    builder\n        .add('/', '/', 'site.index');\n\n}\n"],"sourceRoot":"/"}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../src/application/views.js"],"names":[],"mappings":";;;;QAAO,eAAe;;kCACR,uBAAuB;;;;AACrC,MAAM,CAAC,KAAK,GAAG,MAAM,CAAC,CAAC,+BAAI,CAAC","file":"views.js","sourcesContent":["import 'html-document';\nimport $ from 'springbokjs-dom/lib/$';\nglobal.React = global.$ = $;\n"]}
