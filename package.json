@@ -11,11 +11,11 @@
   "dependencies": {
     "alouette": "^3.3.0",
     "limosa": "^1.0.1",
-    "nightingale": "^1.2.0",
+    "nightingale": "^2.1.0",
     "object-properties": "^1.2.0"
   },
   "devDependencies": {
-    "springbokjs-library": "^12.2.1"
+    "springbokjs-library": "^12.3.0"
   },
   "scripts": {
     "test": "make test",
