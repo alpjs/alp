@@ -1,6 +1,6 @@
 {
   "name": "alp",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "common for auk framework for nodejs 4 and ibex for browser",
   "main": "./lib/index.js",
   "browser": "./browser/lib/index.js",
