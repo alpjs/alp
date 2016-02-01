@@ -8,14 +8,9 @@
     "main": "browser/lib/index.js",
     "lib": "browser/"
   },
-  "dependencies": {
-    "alouette": "^3.3.0",
-    "limosa": "^1.0.1",
-    "nightingale": "^2.1.2",
-    "object-properties": "^1.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "springbokjs-library": "^12.3.0"
+    "springbokjs-library": "^14.0.1"
   },
   "scripts": {
     "test": "make test",

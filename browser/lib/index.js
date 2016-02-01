@@ -6,11 +6,17 @@ Object.defineProperty(exports, "__esModule", {
 exports.newController = newController;
 Error.stackTraceLimit = Infinity; // TODO move somewhere else
 
-function newController(actions) {
+/**
+ * @function
+ * @param actions
+*/function newController(actions) {
     return actions;
 }
 
-newController.action = function (action) {
+newController.action = /**
+                        * @function
+                        * @param action
+                       */function (action) {
     return action;
 };
 //# sourceMappingURL=index.js.map
