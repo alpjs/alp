@@ -1,6 +1,6 @@
 {
   "name": "alp",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "alp framework for node 5 and for browser",
   "main": "node.js",
   "browser": "browser.js",
