@@ -1,33 +1,19 @@
 {
   "name": "alp",
-  "version": "1.2.0",
-  "description": "common for auk framework for nodejs 4 and ibex for browser",
-  "main": "./lib/index.js",
-  "browser": "./browser/lib/index.js",
-  "jspm": {
-    "main": "browser/lib/index.js",
-    "lib": "browser/"
+  "version": "2.0.0",
+  "description": "alp framework for node 5 and for browser",
+  "main": "node.js",
+  "browser": "browser.js",
+  "dependencies": {
+    "alp-browser": "^0.1.1",
+    "alp-node": "^0.2.1"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "springbokjs-library": "^14.0.1"
-  },
-  "scripts": {
-    "test": "make test",
-    "lint": "make lint",
-    "build": "make build",
-    "postpublish": "make post-publish",
-    "preversion": "make pre-version",
-    "version": "make version",
-    "watch": "make watch"
-  },
+  "devDependencies": {},
   "repository": "alpjs/alp",
   "keywords": [
-    "alp",
-    "auk",
-    "ibex",
+    "springbokjs",
     "framework",
-    "node4",
+    "ibex",
     "node5"
   ],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
