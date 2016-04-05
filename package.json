@@ -6,7 +6,7 @@
   "browser": "browser.js",
   "dependencies": {
     "alp-browser": "^0.1.6",
-    "alp-node": "^0.4.0"
+    "alp-node": "^0.4.1"
   },
   "devDependencies": {},
   "repository": "alpjs/alp",
