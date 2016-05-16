@@ -5,8 +5,8 @@
   "main": "node.js",
   "browser": "browser.js",
   "dependencies": {
-    "alp-browser": "^0.1.6",
-    "alp-node": "^0.5.0"
+    "alp-browser": "^0.2.0",
+    "alp-node": "^0.6.0"
   },
   "devDependencies": {},
   "repository": "alpjs/alp",
