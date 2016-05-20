@@ -5,7 +5,7 @@
   "main": "node.js",
   "browser": "browser.js",
   "dependencies": {
-    "alp-browser": "^0.4.1",
+    "alp-browser": "^0.4.2",
     "alp-node": "^0.6.0"
   },
   "devDependencies": {},
