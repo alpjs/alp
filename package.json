@@ -2,14 +2,6 @@
   "name": "alp",
   "version": "3.3.2",
   "description": "alp framework for node 5 and for browser",
-  "main": "node.js",
-  "browser": "browser.js",
-  "dependencies": {
-    "alp-browser": "^0.4.2",
-    "alp-node": "^0.6.0"
-  },
-  "devDependencies": {},
-  "repository": "alpjs/alp",
   "keywords": [
     "springbokjs",
     "framework",
@@ -18,8 +10,48 @@
   ],
   "author": "Christophe Hurpeau <christophe@hurpeau.com> (http://christophe.hurpeau.com/)",
   "license": "ISC",
+  "repository": "alpjs/alp",
+  "homepage": "https://github.com/alpjs/alp#readme",
   "bugs": {
     "url": "https://github.com/alpjs/alp/issues"
   },
-  "homepage": "https://github.com/alpjs/alp#readme"
+  "main": "index.js",
+  "webpack:main": "./lib-webpack/browser.js",
+  "webpack:main-dev": "./lib-webpack-dev/browser.js",
+  "webpack:main-modern-browsers": "./lib-webpack-modern-browsers/browser.js",
+  "webpack:main-modern-browsers-dev": "./lib-webpack-modern-browsers-dev/browser.js",
+  "scripts": {
+    "build": "pob-build",
+    "build:dev": "pob-build",
+    "clean": "rm -Rf docs dist test/node6 coverage",
+    "lint": "eslint --fix -c .eslintrc.yml src/",
+    "prepublish": "ln -s ../../git-hooks/pre-commit .git/hooks/pre-commit || echo",
+    "preversion": "npm run lint && npm run build && npm run build && pob-repository-check-clean",
+    "release": "pob-repository-check-clean && pob-release",
+    "version": "pob-version",
+    "watch": "pob-watch",
+    "watch:dev": "pob-watch"
+  },
+  "dependencies": {
+    "alp-browser": "^0.5.0",
+    "alp-node": "^0.7.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "babel-plugin-defines": "^2.0.0",
+    "babel-plugin-discard-module-references": "^1.0.0",
+    "babel-plugin-remove-dead-code": "^1.0.1",
+    "babel-plugin-typecheck": "^3.9.0",
+    "babel-preset-es2015-node6": "^0.2.0",
+    "babel-preset-es2015-webpack": "^6.4.1",
+    "babel-preset-flow": "^1.0.0",
+    "babel-preset-modern-browsers": "^3.0.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "eslint": "^2.12.0",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-config-pob": "^6.1.1",
+    "eslint-plugin-import": "^1.8.1",
+    "pob-babel": "^0.4.1",
+    "pob-release": "^2.0.4"
+  }
 }

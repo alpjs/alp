@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/browser.js"],"names":[],"mappings":";;;;;;;;;AACA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;;;;QADO,O","file":"browser.js","sourcesContent":["export default from 'alp-browser';\nexport * from 'alp-browser';\n"]}
