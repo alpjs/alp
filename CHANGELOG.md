@@ -1,3 +1,7 @@
+### v4.1.0
+
+- [`d4783e4`](https://github.com/alpjs/alp/commit/d4783e4b3cf4ddb657503dcb88964b1c159c2255) alp-language 1.2 (Christophe Hurpeau)
+
 ### v4.0.0
 
 - [`608b9a5`](https://github.com/alpjs/alp/commit/608b9a5250aab72aa0b9731b4438264eee8bbd90) changelog bring back 3.4.0 (Christophe Hurpeau)
