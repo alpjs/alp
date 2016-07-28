@@ -33,25 +33,26 @@
     "watch:dev": "pob-watch"
   },
   "dependencies": {
-    "alp-browser": "^0.7.1",
-    "alp-node": "^0.8.1"
+    "alp-browser": "^0.9.0",
+    "alp-node": "^0.9.0"
   },
   "devDependencies": {
-    "babel-eslint": "^6.0.4",
-    "babel-plugin-defines": "^2.0.0",
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-defines": "^3.1.0",
     "babel-plugin-discard-module-references": "^1.0.0",
-    "babel-plugin-remove-dead-code": "^1.0.1",
+    "babel-plugin-remove-dead-code": "^1.1.0",
     "babel-plugin-typecheck": "^3.9.0",
     "babel-preset-es2015-node6": "^0.2.0",
-    "babel-preset-es2015-webpack": "^6.4.1",
+    "babel-preset-es2015-webpack": "^6.4.2",
     "babel-preset-flow": "^1.0.0",
-    "babel-preset-modern-browsers": "^3.0.0",
+    "babel-preset-modern-browsers": "^5.0.2",
+    "babel-preset-modern-browsers-stage-1": "^1.0.0",
     "babel-preset-stage-1": "^6.5.0",
-    "eslint": "^2.12.0",
-    "eslint-config-airbnb-base": "^3.0.1",
-    "eslint-config-pob": "^6.1.1",
-    "eslint-plugin-import": "^1.8.1",
-    "pob-babel": "^0.4.1",
+    "eslint": "^3.1.1",
+    "eslint-config-airbnb-base": "^5.0.0",
+    "eslint-config-pob": "^6.1.4",
+    "eslint-plugin-import": "^1.12.0",
+    "pob-babel": "^3.1.0",
     "pob-release": "^2.0.5"
   }
 }
