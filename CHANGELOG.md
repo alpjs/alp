@@ -1,3 +1,7 @@
+### v4.2.0
+
+- [`3cf184d`](https://github.com/alpjs/alp/commit/3cf184db008279078f1f7048ee44a5d9552a149f) update dependencies (Christophe Hurpeau)
+
 ### v4.1.0
 
 - [`d4783e4`](https://github.com/alpjs/alp/commit/d4783e4b3cf4ddb657503dcb88964b1c159c2255) alp-language 1.2 (Christophe Hurpeau)
