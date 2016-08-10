@@ -26,33 +26,34 @@
     "clean": "rm -Rf docs dist test/node6 coverage",
     "lint": "eslint --fix -c .eslintrc.yml src/",
     "prepublish": "ln -s ../../git-hooks/pre-commit .git/hooks/pre-commit || echo",
-    "preversion": "npm run lint && npm run build && npm run build && pob-repository-check-clean",
+    "preversion": "npm run lint && npm run build && pob-repository-check-clean",
     "release": "pob-repository-check-clean && pob-release",
     "version": "pob-version",
     "watch": "pob-watch",
     "watch:dev": "pob-watch"
   },
   "dependencies": {
-    "alp-browser": "^0.9.0",
-    "alp-node": "^0.9.0"
+    "alp-browser": "^0.10.1",
+    "alp-node": "^0.10.0"
   },
   "devDependencies": {
     "babel-eslint": "^6.1.2",
     "babel-plugin-defines": "^3.1.0",
     "babel-plugin-discard-module-references": "^1.0.0",
+    "babel-plugin-import-rename": "^1.0.1",
     "babel-plugin-remove-dead-code": "^1.1.0",
     "babel-plugin-typecheck": "^3.9.0",
-    "babel-preset-es2015-node6": "^0.2.0",
-    "babel-preset-es2015-webpack": "^6.4.2",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-es2015-node6": "^0.3.0",
     "babel-preset-flow": "^1.0.0",
-    "babel-preset-modern-browsers": "^5.0.2",
+    "babel-preset-modern-browsers": "^5.1.0",
     "babel-preset-modern-browsers-stage-1": "^1.0.0",
-    "babel-preset-stage-1": "^6.5.0",
-    "eslint": "^3.1.1",
-    "eslint-config-airbnb-base": "^5.0.0",
+    "babel-preset-stage-1": "^6.13.0",
+    "eslint": "^3.2.2",
+    "eslint-config-airbnb-base": "^5.0.1",
     "eslint-config-pob": "^6.1.4",
     "eslint-plugin-import": "^1.12.0",
-    "pob-babel": "^3.1.0",
+    "pob-babel": "^6.0.2",
     "pob-release": "^2.0.5"
   }
 }

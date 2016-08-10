@@ -8,7 +8,7 @@ exports.default = undefined;
 var _alpNode = require('alp-node');
 
 Object.keys(_alpNode).forEach(function (key) {
-  if (key === "default") return;
+  if (key === "default" || key === "__esModule") return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function get() {

@@ -8,7 +8,7 @@ exports.default = undefined;
 var _alpBrowser = require('alp-browser');
 
 Object.keys(_alpBrowser).forEach(function (key) {
-  if (key === "default") return;
+  if (key === "default" || key === "__esModule") return;
   Object.defineProperty(exports, key, {
     enumerable: true,
     get: function get() {
