@@ -1,3 +1,7 @@
+### v5.1.0
+
+- [`17ef1fb`](https://github.com/alpjs/alp/commit/17ef1fbb8d4808002ab1d924861738c876088217) update dependencies (Christophe Hurpeau)
+
 ### v5.0.0
 
 - [`fc09ce1`](https://github.com/alpjs/alp/commit/fc09ce105cadc5dc23a4c01c0afa0b03b17beade) update dependencies, alp-node@0.10 and alp-browser@0.10 (Christophe Hurpeau)
