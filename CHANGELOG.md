@@ -1,3 +1,7 @@
+### v6.0.0
+
+- [`87abcee`](https://github.com/alpjs/alp/commit/87abceeba34c6a3128907ae22d45d13fa905b732) update dependencies (Christophe Hurpeau)
+
 ### v5.1.0
 
 - [`17ef1fb`](https://github.com/alpjs/alp/commit/17ef1fbb8d4808002ab1d924861738c876088217) update dependencies (Christophe Hurpeau)
