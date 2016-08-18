@@ -22,4 +22,4 @@ var _alpNode2 = _interopRequireDefault(_alpNode);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = _alpNode2.default;
-//# sourceMappingURL=node.js.map
+//# sourceMappingURL=index.js.map

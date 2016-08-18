@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.js"],"names":[],"mappings":";;;;;;;;;AACA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;;;;QADO,O","file":"index.js","sourcesContent":["export default from 'alp-node';\nexport * from 'alp-node';\n"]}
