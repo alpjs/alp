@@ -33,8 +33,8 @@
     "watch:dev": "pob-watch"
   },
   "dependencies": {
-    "alp-browser": "^0.13.0",
-    "alp-node": "^0.14.0"
+    "alp-browser": "^0.14.0",
+    "alp-node": "^0.15.0"
   },
   "devDependencies": {
     "babel-eslint": "^6.1.2",
