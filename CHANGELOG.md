@@ -1,3 +1,7 @@
+### v7.1.0
+
+- [`1801007`](https://github.com/alpjs/alp/commit/1801007274c30831e6b8a7682062953440664c82) alp-params (Christophe Hurpeau)
+
 ### v7.0.0
 
 - [`de1b20f`](https://github.com/alpjs/alp/commit/de1b20fe617f9134a2017ff56278ce563ecc745d) update dependencies (Christophe Hurpeau)
