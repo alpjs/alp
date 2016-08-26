@@ -1,1 +1,1 @@
-{"version":3,"sources":["../src/browser.js"],"names":[],"mappings":"qBAAoB,a;qBAAb,O;;AACP,cAAc,aAAd","file":"browser.js","sourcesContent":["export default from 'alp-browser';\nexport * from 'alp-browser';\n"]}
+{"version":3,"sources":["../src/browser.js"],"names":["default"],"mappings":"qBAAoB,a;qBAAbA,O;;AACP,cAAc,aAAd","file":"browser.js","sourcesContent":["export default from 'alp-browser';\nexport * from 'alp-browser';\n"]}

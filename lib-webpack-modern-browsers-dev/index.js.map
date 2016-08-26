@@ -1,1 +1,1 @@
-{"version":3,"sources":["../src/index.js"],"names":[],"mappings":"qBAAoB,U;qBAAb,O;;AACP,cAAc,UAAd","file":"index.js","sourcesContent":["export default from 'alp-node';\nexport * from 'alp-node';\n"]}
+{"version":3,"sources":["../src/index.js"],"names":["default"],"mappings":"qBAAoB,U;qBAAbA,O;;AACP,cAAc,UAAd","file":"index.js","sourcesContent":["export default from 'alp-node';\nexport * from 'alp-node';\n"]}
