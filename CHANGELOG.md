@@ -1,3 +1,7 @@
+### v8.0.0
+
+- [`84fb60e`](https://github.com/alpjs/alp/commit/84fb60ecf74ae57324cf30de75756a8fe65753fa) chore(package): update dependencies (Christophe Hurpeau)
+
 ### v7.2.0
 
 - [`201fbeb`](https://github.com/alpjs/alp/commit/201fbeb2516a279ac62d7f5b3a96b07c29b03d25) update dependencies (Christophe Hurpeau)
