@@ -22,19 +22,17 @@
   "webpack:main-modern-browsers-dev": "./lib-webpack-modern-browsers-dev/browser.js",
   "scripts": {
     "build": "pob-build",
-    "build:dev": "pob-build",
     "clean": "rm -Rf docs dist test/node6 coverage",
     "lint": "eslint --ext .js,.jsx --fix src/",
-    "prepublish": "ln -s ../../git-hooks/pre-commit .git/hooks/pre-commit 2>/dev/null || true",
+    "prepublish": "ln -s ../../git-hooks/pre-commit .git/hooks/pre-commit 2>/dev/null || true ; ln -s ../../git-hooks/post-checkout .git/hooks/post-checkout 2>/dev/null || true ; ln -s ../../git-hooks/post-merge .git/hooks/post-merge 2>/dev/null || true",
     "preversion": "npm run lint && npm run build && pob-repository-check-clean",
     "release": "pob-repository-check-clean && pob-release",
     "version": "pob-version",
-    "watch": "pob-watch",
-    "watch:dev": "pob-watch"
+    "watch": "pob-watch"
   },
   "dependencies": {
-    "alp-browser": "^0.16.0",
-    "alp-node": "^0.17.0"
+    "alp-browser": "^0.17.0",
+    "alp-node": "^0.18.0"
   },
   "devDependencies": {
     "babel-eslint": "^6.1.2",
@@ -44,12 +42,13 @@
     "babel-preset-modern-browsers": "^5.1.0",
     "babel-preset-modern-browsers-stage-1": "^1.0.0",
     "babel-preset-stage-1": "^6.13.0",
-    "eslint": "^3.4.0",
-    "eslint-config-airbnb-base": "^5.0.3",
-    "eslint-config-pob": "^7.2.0",
+    "eslint": "^3.6.0",
+    "eslint-config-airbnb-base": "^7.2.0",
+    "eslint-config-pob": "^7.5.0",
     "eslint-plugin-babel": "^3.3.0",
-    "eslint-plugin-import": "^1.14.0",
-    "pob-babel": "^7.3.0",
-    "pob-release": "^2.1.1"
+    "eslint-plugin-import": "^1.16.0",
+    "pob-babel": "^8.0.4",
+    "pob-release": "^2.1.2",
+    "tcomb-forked": "^3.3.0"
   }
 }
