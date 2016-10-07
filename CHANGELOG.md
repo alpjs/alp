@@ -1,3 +1,8 @@
+### v8.2.0
+
+- [`5171458`](https://github.com/alpjs/alp/commit/517145805646659f249d9f5984125d83af78e1fc) update dependencies (Christophe Hurpeau)
+- [`175cafe`](https://github.com/alpjs/alp/commit/175cafeacdb4fb90a6df84e7e46771b4d4ad6998) update dependencies (Christophe Hurpeau)
+
 ### v8.1.0
 
 - [`7fc3b25`](https://github.com/alpjs/alp/commit/7fc3b257949a1f479fbf516861b622d54b07608f) alp-node 0.19 (Christophe Hurpeau)
