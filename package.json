@@ -31,15 +31,15 @@
     "watch": "pob-watch"
   },
   "dependencies": {
-    "alp-browser": "^0.17.0",
-    "alp-node": "^0.19.1"
+    "alp-browser": "^0.18.0",
+    "alp-node": "^0.20.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.0.0",
     "babel-preset-es2015": "^6.16.0",
     "babel-preset-es2015-node6": "^0.3.0",
     "babel-preset-modern-browsers": "^5.1.0",
-    "eslint": "^3.6.1",
+    "eslint": "^3.7.1",
     "eslint-config-airbnb-base": "^8.0.0",
     "eslint-config-pob": "^7.6.0",
     "eslint-plugin-babel": "^3.3.0",
