@@ -1,3 +1,7 @@
+### v8.3.0
+
+- [`548e5bb`](https://github.com/alpjs/alp/commit/548e5bb491f073f49600dbb9ec9031f4ab931176) alp-node@0.21 (Christophe Hurpeau)
+
 ### v8.2.0
 
 - [`5171458`](https://github.com/alpjs/alp/commit/517145805646659f249d9f5984125d83af78e1fc) update dependencies (Christophe Hurpeau)
