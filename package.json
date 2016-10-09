@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "alp-browser": "^0.18.0",
-    "alp-node": "^0.21.0"
+    "alp-node": "^0.22.0"
   },
   "devDependencies": {
     "babel-eslint": "^7.0.0",
