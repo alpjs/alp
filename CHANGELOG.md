@@ -1,3 +1,7 @@
+### v9.0.0
+
+- [`8b9b599`](https://github.com/alpjs/alp/commit/8b9b59993bf871967240e5206899be8e058646d8) alp-node@0.22 (Christophe Hurpeau)
+
 ### v8.3.0
 
 - [`548e5bb`](https://github.com/alpjs/alp/commit/548e5bb491f073f49600dbb9ec9031f4ab931176) alp-node@0.21 (Christophe Hurpeau)
