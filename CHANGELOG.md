@@ -1,3 +1,7 @@
+### v10.0.0
+
+- [`e72a55f`](https://github.com/alpjs/alp/commit/e72a55f5b8b67138bc943c2057c6fddee13781c3) peer dependencies ! (Christophe Hurpeau)
+
 ### v9.0.0
 
 - [`8b9b599`](https://github.com/alpjs/alp/commit/8b9b59993bf871967240e5206899be8e058646d8) alp-node@0.22 (Christophe Hurpeau)
