@@ -30,9 +30,9 @@
     "version": "pob-version",
     "watch": "pob-watch"
   },
-  "dependencies": {
-    "alp-browser": "^0.18.0",
-    "alp-node": "^0.22.0"
+  "peerDependencies": {
+    "alp-browser": "*",
+    "alp-node": "*"
   },
   "devDependencies": {
     "babel-eslint": "^7.0.0",
