@@ -1,5 +1,7 @@
 # alp [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/alpjs/alp.svg)](https://greenkeeper.io/)
+
 alp framework for node 5 and for browser
 
  [![Dependency Status][daviddm-image]][daviddm-url]
